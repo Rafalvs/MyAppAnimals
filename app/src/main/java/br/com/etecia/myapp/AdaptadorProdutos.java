@@ -1,5 +1,6 @@
 package br.com.etecia.myapp;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,9 +16,9 @@ import java.util.List;
 public class AdaptadorProdutos extends RecyclerView.Adapter<AdaptadorProdutos.ViewHolder> {
     private Context context;
 
-    private List<Produto> lstProdutos;
+    private List<Produtos> lstProdutos;
 
-    public AdaptadorProdutos(Context context, List<Produto> lstProdutos) {
+    public AdaptadorProdutos(Context context, List<Produtos> lstProdutos) {
         this.context = context;
         this.lstProdutos = lstProdutos;
     }
